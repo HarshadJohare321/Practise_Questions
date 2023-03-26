@@ -1,0 +1,15 @@
+class Employee:
+    
+    def __init__(self):
+        print("Welcome to the company....")
+        
+    def employee_details(self,e_name,e_id,basic_salary): 
+          self.basic_salary=basic_salary
+          print(self.e_name," basic salary is : ",self.basic_salary," and employee id is :",self.e_id)
+          Total_salary=self.basic_salary+(self.basic_salary*.10)
+          print("Total salary is :",Total_salary) 
+obj=Employee()
+obj.employee_details("Harshad",2121,5000)
+
+        
+    
